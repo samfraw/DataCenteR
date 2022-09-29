@@ -1,0 +1,407 @@
+body {
+         background-color: white;
+         width: 100%;
+         margin: auto;
+        }
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-size: 80px;
+   }
+
+header {
+        font-size: larger;
+        background-image: url(../photos/accueil/DCC_Banner.jpg);         
+        width: 1800px;
+        margin: auto;
+        height: 350px;
+       }
+nav {
+     background-color: rgb(63, 156, 231);
+     border-radius: 0px;
+     height: 55px;
+     margin-top: 220px;
+    } 
+nav ul {
+        background-color:rgb(63, 156, 231);
+        padding:0;
+        margin:0;
+       }
+nav ul li {
+           list-style-type:none !important; /*On enlève les puces de la liste */
+           font-size:30px;
+           text-decoration:none;
+           font-weight: bold;
+         }
+  nav ul li {
+             margin-left: 245px;
+             float:left;
+            }
+   
+  nav ul li a {
+  color:whitesmoke;
+  padding:10px;
+  font-size:30px;
+  text-decoration:none;
+  }
+   
+  li a:hover {
+    color: rgb(39, 51, 75);
+  }
+  
+  nav ul li ul { 
+  display:none; /* Rend le menu déroulant caché par défaut */
+  list-style-type: none;
+  } 
+   
+  nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+  z-index:99999;
+  display:list-item !important;
+  position:absolute;
+  margin-top:5px;
+  margin-left:-10px;
+  }
+   
+  nav ul li:hover ul li {
+  float:none;
+  list-style:none !important;
+  }
+  nav ul li ul li {
+    list-style:none !important;
+      float: left;
+      margin: 2%;
+      padding: 1% 0;
+      list-style-type: none;
+      width: 100%;
+  }
+  nav ul li ul li a {
+  
+    list-style:none !important;
+    font-size:20px;
+    text-decoration:none;
+    width:auto;
+    }
+   
+ 
+    * {
+      font-family: Roboto;
+    }
+    
+    section {
+             margin: auto;
+             width: 1800px;
+             height: 5000px;
+             background-color: whitesmoke;
+             
+            }
+    #text {
+           height: 200px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-size: large;
+          }
+    #son {
+          position: absolute;
+          top: 490px;
+          left: 850px;
+         }
+      
+    .footer {
+             clear: both;
+             background-color: #a0d9fb94;
+             box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+             box-sizing: border-box;
+             width: 100%;
+             text-align: left;
+             font: normal 16px sans-serif;
+             padding: 45px 50px;
+    }
+    
+    .footer  .footer-left p {
+      color: rgb(39, 51, 75);
+      font-size: 25px;
+      margin: 0;
+    }
+    /* Footer links */
+    
+    .footer  p.footer-links {
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(39, 51, 75);
+      margin: 0 0 10px;
+      padding: 0;
+      transition: ease .25s;
+    }
+    
+    .footer  p.footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      text-decoration: none;
+      color: inherit;
+      transition: ease .25s;
+    }
+    
+    .footer  .footer-links a:before {
+      content: "·";
+      font-size: 20px;
+      left: 0;
+      color: #fff;
+      display: inline-block;
+      padding-right: 5px;
+    }
+    
+    .footer  .footer-links .link-1:before {
+      content: none;
+    }
+    
+    .footer  .footer-right {
+      float: right;
+      margin-top: 6px;
+      max-width: 280px;
+    }
+    
+    .footer  .footer-right a {
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      background-color:  rgb(39, 51, 75);
+      border-radius: 2px;
+      font-size: 20px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+      margin-left: 3px;
+      transition:all .25s;
+    }
+    
+    .footer  .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+  
+    .footer-  p.footer-links a:hover{text-decoration:underline;}
+    figure b {
+      margin-left: 40px;
+      margin-top: 15px;
+
+      justify-content: center;
+      align-items: center;
+  }
+  
+  audio {
+    width: 250px;
+   height: 32px;
+  
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+  video {
+     margin-left: 20%;
+     margin-top: 5%;
+      width: 60%;
+      border-style: outset;
+      border-radius: 50px;
+      border-width: 5px;
+      border-color: antiquewhite;
+}
+iframe  {
+  margin-left: 20%;
+  margin-top: 5%;
+   width: 60%;
+   height: 600px;
+   border-style: outset;
+   border-radius: 50px;
+   border-width: 5px;
+   border-color: antiquewhite;
+}
+
+.imageAcceuil img {
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 5px;
+  width: 70%;
+  margin-left:250px;
+  margin-top: -180px;
+
+}
+
+img {
+     margin-left: 20%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     width: 60%;
+    }
+   .logo {
+    margin-left: 20%;
+ 
+   }
+h3 {
+     margin-left: 20%;
+     margin-right: 20%;
+     font-size: xxx-large;
+     color: rgb(66, 140, 252);
+
+}
+p  {
+  text-align:left;
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size:2em;
+  color: rgb(39, 51, 75);
+   }
+   .form4  {
+    text-align:left;
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     font-size: x-large;
+    color: rgb(39, 51, 75);
+     }
+  .form-style {
+    
+    width: 400px;
+    padding: 20px 12px 10px 20px;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  .form-style td {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+  }
+  .form-style label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(39, 51, 75);
+  }
+  .form-style .required{
+    color:red;
+  }
+  .form-style input[type=submit], .form-style input[type=reset]{
+    background: rgb(0 0 0 / 12%);
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: rgb(39, 51, 75);
+    font-size: 20px
+  }
+  .form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+    background: #87bedf;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+  }
+  .form-style .field-textarea{
+    height: 500px;
+    font-size: 20px
+  }
+  .form-style input[type=text], 
+  .form-style input[type=email],
+  textarea{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #497fd1;
+    padding: 7px;
+    margin:0px;
+    outline: none;  
+    font-size: 20px;
+    -moz-box-shadow: 0 0 8px #90cedd;
+    -webkit-box-shadow: 0 0 8px #90cedd;
+    box-shadow: 0 0 8px #90cedd;
+    border: 1px solid #90cedd;
+  }
+  .form-style .long{
+    width: 200%;
+  }
+  .form-style input[type=text]:focus, 
+  .form-style input[type=email]:focus,
+  .form-style textarea:focus{
+    -moz-box-shadow: 0 0 8px #90cedd;
+    -webkit-box-shadow: 0 0 8px #90cedd;
+    box-shadow: 0 0 8px #90cedd;
+    border: 1px solid #90cedd;
+  }
+  .error{
+    color: #D8000C;
+    background-color: #FFBABA;
+  }
+  .container {
+    display: flex; 
+    
+    justify-content: space-between;  }
+  
+  .item {
+    flex-grow: 1;
+    height: 100px;
+    margin-bottom: 2%;
+    width: 48%;
+  }
+  
+  .item + .item {
+    margin-left: 2%;
+  }
+  
+ 
+  .layout{
+    width: 1000px;
+    margin: auto;
+ }
+ .accordion{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*background: r;*/
+    border-radius: 10px;
+    border: 2px solid #497fd1;
+    -moz-box-shadow: 0 0 8px #90cedd;
+    -webkit-box-shadow: 0 0 8px #90cedd;
+    box-shadow: 0 0 8px #90cedd;
+    border: 1px solid #90cedd;
+ }
+ .accordion__question p{
+    margin: 5px;
+    padding: 0;
+    font-family: consolas;
+    font-size: 20px;
+ }
+
+ .accordion__answer p{
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    background: #87bedf42;
+    border-radius: 10px;
+ }
+ .accordion:hover{
+    cursor: pointer;
+    transform:scale(1.1); -webkit-transform:scale(1.1);
+ }
+ .accordion__answer {
+    display: none;
+ }
+ .accordion.active .accordion__answer {
+    display: block;
+ }
+ table,
+td {
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  font-size: xx-large;
+  color: #497fd1;
+  font-weight: bolder;
+  line-height: 5;
+}
+
+.sitesupport{text-align: right;}
